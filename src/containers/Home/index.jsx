@@ -17,7 +17,7 @@ function Home() {
       console.error("A chave da API não foi encontrada!");
       return;
     }
-    const URL = `http://api.weatherapi.com/v1/current.json?key=${getApiKey}&q=${valorCidade}&lang=pt`;
+    const URL = `https://api.weatherapi.com/v1/current.json?key=${getApiKey}&q=${valorCidade}&lang=pt`;
     try {
       const resposta = await fetch(URL);
       const dados = await resposta.json();
