@@ -1,7 +1,7 @@
 {
   "name": "weather-forecast",
   "private": true,
-  "homepage": "https://github.com/JonathamCarvalho/Previs-o-do-tempo.git",
+  "homepage": "https://jonathamcarvalho.github.io/Previsao-do-Tempo/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
