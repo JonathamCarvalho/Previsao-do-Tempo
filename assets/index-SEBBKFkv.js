@@ -104,7 +104,7 @@ Error generating stack: `+a.message+`
     font-size: 30px;
     font-weight: 800;
   }
-`;function Vv(){const[c,r]=ju.useState(""),[o,s]=ju.useState(null);async function g(){if(!c)return;const Y=`http://api.weatherapi.com/v1/current.json?key=03dff4120f4348c8b37230037251408&q=${c}&lang=pt`;try{const E=await(await fetch(Y)).json();s(E)}catch(M){console.log("erro ao buscar clima",M)}}return el.jsxs(Xv,{children:[el.jsx(Qv,{children:el.jsxs("label",{children:["🏙️ Cidade:",el.jsx("input",{value:c,onChange:A=>r(A.target.value),placeholder:"Digite sua cidade"}),el.jsx(Gv,{onClick:g})]})}),el.jsx(Zv,{children:o?el.jsxs("p",{children:[o?.location?.name,", ",o.location.country,el.jsx("br",{}),"🌡️ ",o.current.temp_c,"°C",el.jsx("br",{}),o.current.condition.text]}):el.jsx("p",{children:"Digite uma cidade e clique no botão para ver o clima."})})]})}const Lv=Bv`
+`;function Vv(){const[c,r]=ju.useState(""),[o,s]=ju.useState(null);async function g(){if(!c)return;const Y=`https://api.weatherapi.com/v1/current.json?key=03dff4120f4348c8b37230037251408&q=${c}&lang=pt`;try{const E=await(await fetch(Y)).json();s(E)}catch(M){console.log("erro ao buscar clima",M)}}return el.jsxs(Xv,{children:[el.jsx(Qv,{children:el.jsxs("label",{children:["🏙️ Cidade:",el.jsx("input",{value:c,onChange:A=>r(A.target.value),placeholder:"Digite sua cidade"}),el.jsx(Gv,{onClick:g})]})}),el.jsx(Zv,{children:o?el.jsxs("p",{children:[o?.location?.name,", ",o.location.country,el.jsx("br",{}),"🌡️ ",o.current.temp_c,"°C",el.jsx("br",{}),o.current.condition.text]}):el.jsx("p",{children:"Digite uma cidade e clique no botão para ver o clima."})})]})}const Lv=Bv`
 * {
 padding: 0;
 border: 0;
