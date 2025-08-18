@@ -63,7 +63,7 @@ Error generating stack: `+a.message+`
   &:active {
     opacity: 0.7;
   }
-`;function Gv({onClick:c}){return el.jsx(Cv,{onClick:c,children:"[🔍 Buscar]"})}const jv="/assets/WeatherForecast-CZPloc6j.gif",Xv=ke.div`
+`;function Gv({onClick:c}){return el.jsx(Cv,{onClick:c,children:"[🔍 Buscar]"})}const jv="/Previsao-do-Tempo/assets/WeatherForecast-CZPloc6j.gif",Xv=ke.div`
   background-image: url(${jv});
   background-size: cover;
   background-position: center;
