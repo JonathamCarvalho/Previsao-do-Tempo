@@ -1,12 +1,23 @@
-# React + Vite
+<h1 align="center"> Previsão do Tempo</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
 
-Currently, two official plugins are available:
+Previsão do tempo é um projeto que permite consultar a previsão de qualquer cidade em tempo real. 
+Desenvolvido com React, Vite e Styled Components, e publicado no GitHub Pages. Ideal para praticar consumo de APIs, Responsividade e aprimorar habilidades em front-end
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **React** (Hooks: useState, useEffect) 
+- **Vite**
+- **Styled Components**
+- **Github Pages**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  ## Funcionalidades
+  
+- Consultar o clima de qualquer cidade, exibindo temperatura, condições climáticas e país.
+- Praticar consumo de APIs utilizando **React** e **Styled Components**.
+- Deploy do projeto no **GitHub Pag
+
+  ## Acesse o Projeto
+
+  https://jonathamcarvalho.github.io/Previsao-do-Tempo/
