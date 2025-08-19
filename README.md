@@ -3,7 +3,7 @@
 ## Descrição
 
 Previsão do tempo é um projeto que permite consultar a previsão de qualquer cidade em tempo real. 
-Desenvolvido com React, Vite e Styled Components, e publicado no GitHub Pages. Ideal para praticar consumo de APIs, Responsividade e aprimorar habilidades em front-end
+Desenvolvido com React, Vite e Styled Components, e publicado no GitHub Pages. Ideal para praticar consumo de APIs, responsividade e aprimorar habilidades em front-end
 
 ## Tecnologias Utilizadas
 
@@ -16,8 +16,12 @@ Desenvolvido com React, Vite e Styled Components, e publicado no GitHub Pages. I
   
 - Consultar o clima de qualquer cidade, exibindo temperatura, condições climáticas e país.
 - Praticar consumo de APIs utilizando **React** e **Styled Components**.
-- Deploy do projeto no **GitHub Pag
+- Deploy do projeto no **GitHub Pages**
 
   ## Acesse o Projeto
 
   https://jonathamcarvalho.github.io/Previsao-do-Tempo/
+
+## Preview do Projeto
+
+![Preview do Projeto](./src/assets/Preview.PNG)
